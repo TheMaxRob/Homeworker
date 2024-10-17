@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92021C062B5DB35D00F161AB /* CompleteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92021C052B5DB35D00F161AB /* CompleteButton.swift */; };
+		92021C082B5DBC1600F161AB /* NewClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92021C072B5DBC1600F161AB /* NewClassView.swift */; };
+		92021C0B2B5DBC3C00F161AB /* NewClassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92021C0A2B5DBC3C00F161AB /* NewClassViewModel.swift */; };
+		92021C0D2B5DC2E500F161AB /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92021C0C2B5DC2E500F161AB /* MyData.swift */; };
+		92021C152B5DD41900F161AB /* ConfirmHWDeletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92021C142B5DD41900F161AB /* ConfirmHWDeletionView.swift */; };
+		92021C172B5DD52A00F161AB /* CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92021C162B5DD52A00F161AB /* CancelButton.swift */; };
+		9217EB1E2C8B9B8C00AAA8F1 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9217EB1D2C8B9B8C00AAA8F1 /* Models.swift */; };
+		921EFA3B2C89300E00D7A3D9 /* HomeworkAppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EFA3A2C89300E00D7A3D9 /* HomeworkAppTabView.swift */; };
+		92276B932B65A0C40037164B /* CalendarGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92276B922B65A0C40037164B /* CalendarGridView.swift */; };
+		92276B952B65A2660037164B /* ColorCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92276B942B65A2660037164B /* ColorCircle.swift */; };
+		924A7D212C8E9F0100D081A3 /* AssignmentListSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924A7D202C8E9F0100D081A3 /* AssignmentListSubView.swift */; };
+		928C329D2C8E882F00547A13 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928C329C2C8E882F00547A13 /* FlowLayout.swift */; };
+		92E2A8372B59D54900264604 /* HomeworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E2A8362B59D54900264604 /* HomeworkApp.swift */; };
+		92E2A8392B59D54900264604 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E2A8382B59D54900264604 /* HomePageView.swift */; };
+		92E2A83B2B59D54A00264604 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E2A83A2B59D54A00264604 /* Assets.xcassets */; };
+		92E2A83E2B59D54A00264604 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E2A83D2B59D54A00264604 /* Preview Assets.xcassets */; };
+		92E2A8482B59D54A00264604 /* HomeworkAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E2A8472B59D54A00264604 /* HomeworkAppTests.swift */; };
+		92E2A8522B59D54A00264604 /* HomeworkAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E2A8512B59D54A00264604 /* HomeworkAppUITests.swift */; };
+		92E2A8542B59D54A00264604 /* HomeworkAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E2A8532B59D54A00264604 /* HomeworkAppUITestsLaunchTests.swift */; };
+		92E2A8612B59E13300264604 /* AddHWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E2A8602B59E13300264604 /* AddHWButton.swift */; };
+		92E2A8632B59E3E100264604 /* DeleteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E2A8622B59E3E100264604 /* DeleteButton.swift */; };
+		92E2A8652B59E4D300264604 /* DismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E2A8642B59E4D300264604 /* DismissButton.swift */; };
+		92E2A8702B59EB3A00264604 /* AssignmentListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E2A86F2B59EB3A00264604 /* AssignmentListItem.swift */; };
+		92E2A8722B59EC5B00264604 /* DatePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E2A8712B59EC5B00264604 /* DatePin.swift */; };
+		92E2A8742B59F25F00264604 /* CheckMarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E2A8732B59F25F00264604 /* CheckMarkButton.swift */; };
+		92E2A8782B5B19B800264604 /* ClassSideButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E2A8772B5B19B800264604 /* ClassSideButton.swift */; };
+		92E2A87A2B5B241F00264604 /* AddClassButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E2A8792B5B241F00264604 /* AddClassButton.swift */; };
+		92E2A87C2B5B269200264604 /* ToCalendarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E2A87B2B5B269200264604 /* ToCalendarButton.swift */; };
+		92E2A87F2B5B31B900264604 /* NewAssignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E2A87E2B5B31B900264604 /* NewAssignmentView.swift */; };
+		92E2A8832B5B32F200264604 /* NewHWViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E2A8822B5B32F200264604 /* NewHWViewModel.swift */; };
+		92E2A8852B5B48CD00264604 /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E2A8842B5B48CD00264604 /* HomePageViewModel.swift */; };
+		92E2A88A2B5B4EB800264604 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E2A8892B5B4EB800264604 /* LoadingView.swift */; };
+		92F16CDD2B5C9B1E00EEC089 /* TrashButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F16CDC2B5C9B1E00EEC089 /* TrashButton.swift */; };
+		92F50A8E2B5EC9170021576A /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F50A8D2B5EC9170021576A /* CalendarView.swift */; };
+		92F50A952B5ED06A0021576A /* LeftRightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F50A942B5ED06A0021576A /* LeftRightButton.swift */; };
+		92F50A9C2B5ED6660021576A /* DayDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F50A9B2B5ED6660021576A /* DayDetailsView.swift */; };
+		92F50A9E2B5ED69E0021576A /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F50A9D2B5ED69E0021576A /* CalendarViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92E2A8442B59D54A00264604 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92E2A82B2B59D54900264604 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92E2A8322B59D54900264604;
+			remoteInfo = HomeworkApp;
+		};
+		92E2A84E2B59D54A00264604 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92E2A82B2B59D54900264604 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92E2A8322B59D54900264604;
+			remoteInfo = HomeworkApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92021C052B5DB35D00F161AB /* CompleteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteButton.swift; sourceTree = "<group>"; };
+		92021C072B5DBC1600F161AB /* NewClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewClassView.swift; sourceTree = "<group>"; };
+		92021C0A2B5DBC3C00F161AB /* NewClassViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewClassViewModel.swift; sourceTree = "<group>"; };
+		92021C0C2B5DC2E500F161AB /* MyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyData.swift; sourceTree = "<group>"; };
+		92021C142B5DD41900F161AB /* ConfirmHWDeletionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmHWDeletionView.swift; sourceTree = "<group>"; };
+		92021C162B5DD52A00F161AB /* CancelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelButton.swift; sourceTree = "<group>"; };
+		9217EB1D2C8B9B8C00AAA8F1 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		921EFA3A2C89300E00D7A3D9 /* HomeworkAppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkAppTabView.swift; sourceTree = "<group>"; };
+		92276B922B65A0C40037164B /* CalendarGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarGridView.swift; sourceTree = "<group>"; };
+		92276B942B65A2660037164B /* ColorCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircle.swift; sourceTree = "<group>"; };
+		924A7D202C8E9F0100D081A3 /* AssignmentListSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentListSubView.swift; sourceTree = "<group>"; };
+		928C329C2C8E882F00547A13 /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
+		92E2A8332B59D54900264604 /* HomeworkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeworkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E2A8362B59D54900264604 /* HomeworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkApp.swift; sourceTree = "<group>"; };
+		92E2A8382B59D54900264604 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		92E2A83A2B59D54A00264604 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92E2A83D2B59D54A00264604 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92E2A8432B59D54A00264604 /* HomeworkAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeworkAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E2A8472B59D54A00264604 /* HomeworkAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkAppTests.swift; sourceTree = "<group>"; };
+		92E2A84D2B59D54A00264604 /* HomeworkAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeworkAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E2A8512B59D54A00264604 /* HomeworkAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkAppUITests.swift; sourceTree = "<group>"; };
+		92E2A8532B59D54A00264604 /* HomeworkAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92E2A8602B59E13300264604 /* AddHWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHWButton.swift; sourceTree = "<group>"; };
+		92E2A8622B59E3E100264604 /* DeleteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteButton.swift; sourceTree = "<group>"; };
+		92E2A8642B59E4D300264604 /* DismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissButton.swift; sourceTree = "<group>"; };
+		92E2A86F2B59EB3A00264604 /* AssignmentListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentListItem.swift; sourceTree = "<group>"; };
+		92E2A8712B59EC5B00264604 /* DatePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePin.swift; sourceTree = "<group>"; };
+		92E2A8732B59F25F00264604 /* CheckMarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMarkButton.swift; sourceTree = "<group>"; };
+		92E2A8772B5B19B800264604 /* ClassSideButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassSideButton.swift; sourceTree = "<group>"; };
+		92E2A8792B5B241F00264604 /* AddClassButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClassButton.swift; sourceTree = "<group>"; };
+		92E2A87B2B5B269200264604 /* ToCalendarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToCalendarButton.swift; sourceTree = "<group>"; };
+		92E2A87E2B5B31B900264604 /* NewAssignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAssignmentView.swift; sourceTree = "<group>"; };
+		92E2A8822B5B32F200264604 /* NewHWViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHWViewModel.swift; sourceTree = "<group>"; };
+		92E2A8842B5B48CD00264604 /* HomePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewModel.swift; sourceTree = "<group>"; };
+		92E2A8892B5B4EB800264604 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		92F16CDC2B5C9B1E00EEC089 /* TrashButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashButton.swift; sourceTree = "<group>"; };
+		92F50A8D2B5EC9170021576A /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		92F50A942B5ED06A0021576A /* LeftRightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftRightButton.swift; sourceTree = "<group>"; };
+		92F50A9B2B5ED6660021576A /* DayDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailsView.swift; sourceTree = "<group>"; };
+		92F50A9D2B5ED69E0021576A /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92E2A8302B59D54900264604 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E2A8402B59D54A00264604 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E2A84A2B59D54A00264604 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92021C092B5DBC1B00F161AB /* NewClass */ = {
+			isa = PBXGroup;
+			children = (
+				92021C072B5DBC1600F161AB /* NewClassView.swift */,
+				92021C0A2B5DBC3C00F161AB /* NewClassViewModel.swift */,
+			);
+			path = NewClass;
+			sourceTree = "<group>";
+		};
+		92021C1A2B5DE4ED00F161AB /* Confirm Deletions */ = {
+			isa = PBXGroup;
+			children = (
+				92021C142B5DD41900F161AB /* ConfirmHWDeletionView.swift */,
+			);
+			path = "Confirm Deletions";
+			sourceTree = "<group>";
+		};
+		9202AB722B5F1111000FEE68 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		92E2A82A2B59D54900264604 = {
+			isa = PBXGroup;
+			children = (
+				92E2A8352B59D54900264604 /* HomeworkApp */,
+				92E2A8462B59D54A00264604 /* HomeworkAppTests */,
+				92E2A8502B59D54A00264604 /* HomeworkAppUITests */,
+				92E2A8342B59D54900264604 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92E2A8342B59D54900264604 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92E2A8332B59D54900264604 /* HomeworkApp.app */,
+				92E2A8432B59D54A00264604 /* HomeworkAppTests.xctest */,
+				92E2A84D2B59D54A00264604 /* HomeworkAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92E2A8352B59D54900264604 /* HomeworkApp */ = {
+			isa = PBXGroup;
+			children = (
+				92E2A8362B59D54900264604 /* HomeworkApp.swift */,
+				921EFA3A2C89300E00D7A3D9 /* HomeworkAppTabView.swift */,
+				92E2A8382B59D54900264604 /* HomePageView.swift */,
+				92E2A8842B5B48CD00264604 /* HomePageViewModel.swift */,
+				92021C0C2B5DC2E500F161AB /* MyData.swift */,
+				9202AB722B5F1111000FEE68 /* Extension */,
+				92E2A87D2B5B31B000264604 /* Views */,
+				92E2A86E2B59EAE500264604 /* Custom Structs */,
+				92E2A83A2B59D54A00264604 /* Assets.xcassets */,
+				92E2A8892B5B4EB800264604 /* LoadingView.swift */,
+				92E2A83C2B59D54A00264604 /* Preview Content */,
+			);
+			path = HomeworkApp;
+			sourceTree = "<group>";
+		};
+		92E2A83C2B59D54A00264604 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				92E2A83D2B59D54A00264604 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		92E2A8462B59D54A00264604 /* HomeworkAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				92E2A8472B59D54A00264604 /* HomeworkAppTests.swift */,
+			);
+			path = HomeworkAppTests;
+			sourceTree = "<group>";
+		};
+		92E2A8502B59D54A00264604 /* HomeworkAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92E2A8512B59D54A00264604 /* HomeworkAppUITests.swift */,
+				92E2A8532B59D54A00264604 /* HomeworkAppUITestsLaunchTests.swift */,
+			);
+			path = HomeworkAppUITests;
+			sourceTree = "<group>";
+		};
+		92E2A8662B59E50100264604 /* Custom Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				92E2A8602B59E13300264604 /* AddHWButton.swift */,
+				92F16CDC2B5C9B1E00EEC089 /* TrashButton.swift */,
+				92E2A8622B59E3E100264604 /* DeleteButton.swift */,
+				92E2A8642B59E4D300264604 /* DismissButton.swift */,
+				92E2A8712B59EC5B00264604 /* DatePin.swift */,
+				92E2A8732B59F25F00264604 /* CheckMarkButton.swift */,
+				92021C052B5DB35D00F161AB /* CompleteButton.swift */,
+				92E2A8772B5B19B800264604 /* ClassSideButton.swift */,
+				92E2A8792B5B241F00264604 /* AddClassButton.swift */,
+				92E2A87B2B5B269200264604 /* ToCalendarButton.swift */,
+				92021C162B5DD52A00F161AB /* CancelButton.swift */,
+			);
+			path = "Custom Buttons";
+			sourceTree = "<group>";
+		};
+		92E2A86E2B59EAE500264604 /* Custom Structs */ = {
+			isa = PBXGroup;
+			children = (
+				9217EB1D2C8B9B8C00AAA8F1 /* Models.swift */,
+				92F50A962B5ED5D50021576A /* Calendar */,
+				92F50A912B5ECEF50021576A /* Assignment */,
+			);
+			path = "Custom Structs";
+			sourceTree = "<group>";
+		};
+		92E2A87D2B5B31B000264604 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				92021C1A2B5DE4ED00F161AB /* Confirm Deletions */,
+				92021C092B5DBC1B00F161AB /* NewClass */,
+				92E2A8872B5B4B2F00264604 /* NewAssignment */,
+				92F50A9A2B5ED6580021576A /* CalendarViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		92E2A8872B5B4B2F00264604 /* NewAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				92E2A87E2B5B31B900264604 /* NewAssignmentView.swift */,
+				92E2A8822B5B32F200264604 /* NewHWViewModel.swift */,
+			);
+			path = NewAssignment;
+			sourceTree = "<group>";
+		};
+		92F50A902B5ECEE30021576A /* CalendarButtons */ = {
+			isa = PBXGroup;
+			children = (
+				92F50A942B5ED06A0021576A /* LeftRightButton.swift */,
+			);
+			path = CalendarButtons;
+			sourceTree = "<group>";
+		};
+		92F50A912B5ECEF50021576A /* Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				92E2A86F2B59EB3A00264604 /* AssignmentListItem.swift */,
+				92E2A8662B59E50100264604 /* Custom Buttons */,
+			);
+			path = Assignment;
+			sourceTree = "<group>";
+		};
+		92F50A962B5ED5D50021576A /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				92F50A902B5ECEE30021576A /* CalendarButtons */,
+				92276B942B65A2660037164B /* ColorCircle.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		92F50A9A2B5ED6580021576A /* CalendarViews */ = {
+			isa = PBXGroup;
+			children = (
+				92F50A8D2B5EC9170021576A /* CalendarView.swift */,
+				92F50A9D2B5ED69E0021576A /* CalendarViewModel.swift */,
+				92F50A9B2B5ED6660021576A /* DayDetailsView.swift */,
+				924A7D202C8E9F0100D081A3 /* AssignmentListSubView.swift */,
+				92276B922B65A0C40037164B /* CalendarGridView.swift */,
+				928C329C2C8E882F00547A13 /* FlowLayout.swift */,
+			);
+			path = CalendarViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92E2A8322B59D54900264604 /* HomeworkApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92E2A8572B59D54A00264604 /* Build configuration list for PBXNativeTarget "HomeworkApp" */;
+			buildPhases = (
+				92E2A82F2B59D54900264604 /* Sources */,
+				92E2A8302B59D54900264604 /* Frameworks */,
+				92E2A8312B59D54900264604 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeworkApp;
+			productName = HomeworkApp;
+			productReference = 92E2A8332B59D54900264604 /* HomeworkApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92E2A8422B59D54A00264604 /* HomeworkAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92E2A85A2B59D54A00264604 /* Build configuration list for PBXNativeTarget "HomeworkAppTests" */;
+			buildPhases = (
+				92E2A83F2B59D54A00264604 /* Sources */,
+				92E2A8402B59D54A00264604 /* Frameworks */,
+				92E2A8412B59D54A00264604 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92E2A8452B59D54A00264604 /* PBXTargetDependency */,
+			);
+			name = HomeworkAppTests;
+			productName = HomeworkAppTests;
+			productReference = 92E2A8432B59D54A00264604 /* HomeworkAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92E2A84C2B59D54A00264604 /* HomeworkAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92E2A85D2B59D54A00264604 /* Build configuration list for PBXNativeTarget "HomeworkAppUITests" */;
+			buildPhases = (
+				92E2A8492B59D54A00264604 /* Sources */,
+				92E2A84A2B59D54A00264604 /* Frameworks */,
+				92E2A84B2B59D54A00264604 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92E2A84F2B59D54A00264604 /* PBXTargetDependency */,
+			);
+			name = HomeworkAppUITests;
+			productName = HomeworkAppUITests;
+			productReference = 92E2A84D2B59D54A00264604 /* HomeworkAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92E2A82B2B59D54900264604 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					92E2A8322B59D54900264604 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					92E2A8422B59D54A00264604 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 92E2A8322B59D54900264604;
+					};
+					92E2A84C2B59D54A00264604 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 92E2A8322B59D54900264604;
+					};
+				};
+			};
+			buildConfigurationList = 92E2A82E2B59D54900264604 /* Build configuration list for PBXProject "HomeworkApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92E2A82A2B59D54900264604;
+			productRefGroup = 92E2A8342B59D54900264604 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92E2A8322B59D54900264604 /* HomeworkApp */,
+				92E2A8422B59D54A00264604 /* HomeworkAppTests */,
+				92E2A84C2B59D54A00264604 /* HomeworkAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92E2A8312B59D54900264604 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E2A83E2B59D54A00264604 /* Preview Assets.xcassets in Resources */,
+				92E2A83B2B59D54A00264604 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E2A8412B59D54A00264604 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E2A84B2B59D54A00264604 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92E2A82F2B59D54900264604 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F50A8E2B5EC9170021576A /* CalendarView.swift in Sources */,
+				92E2A8742B59F25F00264604 /* CheckMarkButton.swift in Sources */,
+				92276B932B65A0C40037164B /* CalendarGridView.swift in Sources */,
+				92021C152B5DD41900F161AB /* ConfirmHWDeletionView.swift in Sources */,
+				92021C0D2B5DC2E500F161AB /* MyData.swift in Sources */,
+				92F16CDD2B5C9B1E00EEC089 /* TrashButton.swift in Sources */,
+				928C329D2C8E882F00547A13 /* FlowLayout.swift in Sources */,
+				92E2A8852B5B48CD00264604 /* HomePageViewModel.swift in Sources */,
+				92E2A8722B59EC5B00264604 /* DatePin.swift in Sources */,
+				92021C062B5DB35D00F161AB /* CompleteButton.swift in Sources */,
+				92021C082B5DBC1600F161AB /* NewClassView.swift in Sources */,
+				92E2A8632B59E3E100264604 /* DeleteButton.swift in Sources */,
+				9217EB1E2C8B9B8C00AAA8F1 /* Models.swift in Sources */,
+				921EFA3B2C89300E00D7A3D9 /* HomeworkAppTabView.swift in Sources */,
+				92E2A8392B59D54900264604 /* HomePageView.swift in Sources */,
+				92E2A8372B59D54900264604 /* HomeworkApp.swift in Sources */,
+				924A7D212C8E9F0100D081A3 /* AssignmentListSubView.swift in Sources */,
+				92E2A8652B59E4D300264604 /* DismissButton.swift in Sources */,
+				92F50A952B5ED06A0021576A /* LeftRightButton.swift in Sources */,
+				92E2A8832B5B32F200264604 /* NewHWViewModel.swift in Sources */,
+				92E2A87A2B5B241F00264604 /* AddClassButton.swift in Sources */,
+				92276B952B65A2660037164B /* ColorCircle.swift in Sources */,
+				92021C172B5DD52A00F161AB /* CancelButton.swift in Sources */,
+				92E2A87C2B5B269200264604 /* ToCalendarButton.swift in Sources */,
+				92E2A8702B59EB3A00264604 /* AssignmentListItem.swift in Sources */,
+				92021C0B2B5DBC3C00F161AB /* NewClassViewModel.swift in Sources */,
+				92E2A8612B59E13300264604 /* AddHWButton.swift in Sources */,
+				92E2A8782B5B19B800264604 /* ClassSideButton.swift in Sources */,
+				92F50A9C2B5ED6660021576A /* DayDetailsView.swift in Sources */,
+				92E2A87F2B5B31B900264604 /* NewAssignmentView.swift in Sources */,
+				92E2A88A2B5B4EB800264604 /* LoadingView.swift in Sources */,
+				92F50A9E2B5ED69E0021576A /* CalendarViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E2A83F2B59D54A00264604 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E2A8482B59D54A00264604 /* HomeworkAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E2A8492B59D54A00264604 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E2A8542B59D54A00264604 /* HomeworkAppUITestsLaunchTests.swift in Sources */,
+				92E2A8522B59D54A00264604 /* HomeworkAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92E2A8452B59D54A00264604 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92E2A8322B59D54900264604 /* HomeworkApp */;
+			targetProxy = 92E2A8442B59D54A00264604 /* PBXContainerItemProxy */;
+		};
+		92E2A84F2B59D54A00264604 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92E2A8322B59D54900264604 /* HomeworkApp */;
+			targetProxy = 92E2A84E2B59D54A00264604 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		92E2A8552B59D54A00264604 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92E2A8562B59D54A00264604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92E2A8582B59D54A00264604 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HomeworkApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 9QHY7Y942C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MaxRoberts.HomeworkApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92E2A8592B59D54A00264604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HomeworkApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 9QHY7Y942C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MaxRoberts.HomeworkApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92E2A85B2B59D54A00264604 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9QHY7Y942C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MaxRoberts.HomeworkAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeworkApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HomeworkApp";
+			};
+			name = Debug;
+		};
+		92E2A85C2B59D54A00264604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9QHY7Y942C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MaxRoberts.HomeworkAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeworkApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HomeworkApp";
+			};
+			name = Release;
+		};
+		92E2A85E2B59D54A00264604 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9QHY7Y942C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MaxRoberts.HomeworkAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HomeworkApp;
+			};
+			name = Debug;
+		};
+		92E2A85F2B59D54A00264604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9QHY7Y942C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MaxRoberts.HomeworkAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HomeworkApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92E2A82E2B59D54900264604 /* Build configuration list for PBXProject "HomeworkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92E2A8552B59D54A00264604 /* Debug */,
+				92E2A8562B59D54A00264604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92E2A8572B59D54A00264604 /* Build configuration list for PBXNativeTarget "HomeworkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92E2A8582B59D54A00264604 /* Debug */,
+				92E2A8592B59D54A00264604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92E2A85A2B59D54A00264604 /* Build configuration list for PBXNativeTarget "HomeworkAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92E2A85B2B59D54A00264604 /* Debug */,
+				92E2A85C2B59D54A00264604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92E2A85D2B59D54A00264604 /* Build configuration list for PBXNativeTarget "HomeworkAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92E2A85E2B59D54A00264604 /* Debug */,
+				92E2A85F2B59D54A00264604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92E2A82B2B59D54900264604 /* Project object */;
+}
